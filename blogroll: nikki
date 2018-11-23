@@ -1,0 +1,205 @@
+
+<html><head><title>blogroll | {Title}</title>
+<link rel="shortcut icon" href="{Favicon}">
+<!--page: nikki by @studyace
+does not work on sideblogs
+won't work in preview either, should be fine on actual blog so make sure to check
+contact me studyace.tumblr.com/ask
+please don't steal or copy any code or ideas, redistribute w/o permission, or use as a base
+credits:
+default background by unsplash
+honeybee icon font by themehive
+--><link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet"><link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet"><script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:30, /* put a higher number for more delay */
+tip_fade_speed:400, /* put a higher number for a slower fade */
+attribute:"title"
+});
+});
+})(jQuery);
+</script><script>
+$(document).ready(function() {
+   $('.th-eye-o').click(function() {
+      $('.links').fadeToggle(400); 
+   });
+});
+</script>
+
+<style type="text/css">
+
+#s-m-t-tooltip { max-width:200px; z-index:10000000000000000000000; margin:24px 14px 7px 12px; padding:6px 8px; background:#fff; font-size:11px; line-height:16px; color:#000; border-radius:2px; }
+
+html { scroll-behavior: smooth; }
+body {
+    background:url('https://images.unsplash.com/photo-1531948240083-6a7582ab0c93?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c7a5acb45023bd0eaf208fdcb9d4ebcb&auto=format&fit=crop&w=967&q=80'); /*change the background here by replacing the url with the url of the image you want*/
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    /*various backgrund settings here - if you want to change them you can google css background properties*/
+    font-family:"Roboto", helvetica;
+}
+
+.th-eye-o:before{
+content:'\e0ef';
+font-family:'honeybee';
+background-color:#fff;
+padding:12px 10px 10px 10px;
+position:fixed;
+top:10px;
+left:10px;
+}
+
+.links {
+    position:fixed;
+    top:45px;
+    left:10px;
+    display:none;
+}
+
+.links a {
+    padding:7px 10px;
+    background:#fff; /*background color of sidebar links */
+    color:#000;/*color of sidebar links */
+    font-weight:200;
+    margin-top:10px;
+    transition:all 0.5s ease;
+    width:7vw;
+    display:block;
+    text-decoration:none;
+    text-indent:0px;
+}
+
+.links a:hover {
+    color:#f799d0;/*color of sidebar links on hover*/
+}
+
+#blogroll {
+    position:relative;
+    left:10vw;
+    top:60px;
+    text-align:center;
+    width:80vw;
+    margin-bottom:60px;
+}
+
+.user {
+    background-color:#fff;/*background color of each user box*/
+    text-align:center;
+    width:150px;
+    margin:50px 30px 0px 0px;
+    height:150px;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.user:hover .portrait {
+    margin-top:-97px;
+    transition:all 0.5s ease;
+}
+
+.portrait {
+    border-radius:100%;
+    display:block;
+    width:96px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:27px;
+    transition:all 0.5s ease;
+}
+
+.hover {
+    margin-top:20px;
+    max-width:130px;
+    word-break:break-word;
+    margin-left:10px;
+}
+
+.name {
+    color:#000;/*color of username*/
+    font-size:16px;
+    text-decoration:none;
+    font-weight:700;
+    margin-top:61px;
+    display:block;
+}
+
+.follow {
+    font-size:12px;
+    text-transform:lowercase;
+    font-style:italic;
+    font-weight:200;
+    text-decoration:none;
+    color:#3c3c3d;/*color of blog title*/
+    margin-top:5px;
+    display:block;
+}
+
+
+.top, .bottom {
+    color:#000;
+    text-decoration:none;
+}
+
+.th-up-direction {
+    position:fixed;
+    right:15px;
+    bottom:65px;
+    padding:12px 10px 10px 10px;
+    background-color:#fff;
+}
+
+.th-down-direction {
+    position:fixed;
+    right:15px;
+    bottom:15px;
+    padding:12px 10px 10px 10px;
+    background-color:#fff;
+}
+
+.th-up-direction:before {
+    content:"\e48e";
+    font-family:"honeybee";
+}
+
+.th-down-direction:before {
+    content:"\e422";
+    font-family:"honeybee";
+}
+
+</style>
+    </head>
+    <body>
+    
+    <div id="top"></div>
+    
+    <a href="#top" class="top"><span class="th th-up-direction"></span></a>
+    <a href="#bottom" class="bottom"><span class="th th-down-direction"></span></a>
+    
+    <span class='th th-eye-o'></span>
+    <div class="links">
+        <a href="/">home</a>
+        <a href="/ask">contact</a>
+        <a href="http://studyace.tumblr.com">theme</a><!---please don't delete this, it's the theme credit; if you want to add another link just add another <a href="url here">link name</a>--->
+    </div>
+    
+    <div id="blogroll">
+    {block:Following}
+ 
+    {block:Followed}
+     <div class="user">
+    <img src="{FollowedPortraitURL-96}" class="portrait"/>
+    <div class="hover">
+    <a href="{FollowedURL}" class="name" title="go to {FollowedName}">{FollowedName}</a>
+    <a href="http://tumblr.com/follow/{FollowedName}" title="follow {FollowedName}" class="follow">{FollowedTitle}</a>
+    </div>
+    </div>
+    {/block:Followed}
+    
+    {/block:Following}
+    </div>
+    
+    <div id="bottom"></div>
+</body></html>
