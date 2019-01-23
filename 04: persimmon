@@ -12,10 +12,10 @@ theme: persimmon by @studyace
 icons honeybee by #themehive
 sidebar preview icon from unsplash
 please dont steal, remove/edit credit, redistribute w/o permission, copy code/ideas, or use as a base
-contact @ studyace.tumblr.com
+contact @ studyace.tumblr.com / cutercodes.tumblr.com
 --->
 
-<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/n7gvaew/8gop026qc/normalize.css">
+<link rel="stylesheet" type="text/css" href="https://static.tumblr.com/n7gvaew/8gop026qc/normalize.css">
 
 <meta name="color:Text" content="#000"/>
 <meta name="color:Links" content="#000"/>
@@ -129,23 +129,23 @@ a:hover {
     margin-bottom:0px;
 }
 
-.th-house-1-o:before{
-content:'\e170';
+.th-home-o:before{
+content:'\ea63';
 font-family:'honeybee';
 }
 
 .th-envelope-o:before{
-content:'\e428';
+content:'\ebdb';
 font-family:'honeybee';
 }
 
-.th-calendar-o:before{
-content:'\e035';
+.th-calendar-1-o:before{
+content:'\e983';
 font-family:'honeybee';
 }
 
-.th-send-1-o:before{
-content:'\e2ec';
+.th-location-2-o:before{
+content:'\e9d1';
 font-family:'honeybee';
 }
 
@@ -158,17 +158,17 @@ font-family:'honeybee';
 }
 
 .th-facebook-o:before{
-content:'\e42e';
+content:'\ebdf';
 font-family:'honeybee';
 }
 
 .th-instagram-o:before{
-content:'\e435';
+content:'\ebe5';
 font-family:'honeybee';
 }
 
 .th-twitter-o:before{
-content:'\e48a';
+content:'\ec1b';
 font-family:'honeybee';
 }
 
@@ -237,31 +237,31 @@ font-family:'honeybee';
 }
 
 .th-aloe-vera-o:before{
-content:'\70';
+content:'\e94b';
 font-family:'honeybee';
 }
 .th-blossom-o:before{
-content:'\28';
+content:'\e907';
 font-family:'honeybee';
 }
 .th-flower-o:before{
-content:'\e10f';
+content:'\ea2d';
 font-family:'honeybee';
 }
 .th-holly-o:before{
-content:'\e15b';
+content:'\ea59';
 font-family:'honeybee';
 }
 .th-rose-o:before{
-content:'\e929';
+content:'\ecad';
 font-family:'honeybee';
 }
 .th-sunflower-o:before{
-content:'\e351';
+content:'\eb76';
 font-family:'honeybee';
 }
-.th-loupe-1-o:before {
-    content:'\e1ce';
+.th-loupe-o:before {
+    content:'\eaa6';
 font-family:'honeybee';
 margin-left:3px;
 }
@@ -297,6 +297,7 @@ input:focus:-ms-input-placeholder { color: transparent;}
     vertical-align:middle;
     margin-right:10px;
     border-radius:100%;
+    height:2em;
 }
 
 .tumblr_parent {
@@ -470,7 +471,7 @@ display:inline-block;
 .album {
     border:10px solid #ccc;
     z-index:10000;
-    background-image:url('http://static.tumblr.com/xdzt0ir/87ho6heum/cursive_default_album_art_sign.png');
+    background-image:url('https://static.tumblr.com/xdzt0ir/87ho6heum/cursive_default_album_art_sign.png');
     width:100px;
     margin:15px 0px 0px 15px;
     height:100px;
@@ -538,7 +539,7 @@ display:inline-block;
 }
 
 .th-heart-1-o:before {
-    content:"\e155";
+    content:"\ea55";
     font-family:"honeybee";
 }
 
@@ -585,7 +586,7 @@ display:inline-block;
 }
 
 .th-counter-arrow:before {
-    content:"\e3db";
+    content:"\ebc2";
     font-family:"honeybee";
 }
 
@@ -660,13 +661,13 @@ display:inline-block;
     margin-bottom:25px;
 }
 
-.th-backward-arrow:before {
-    content:"\e3da";
+.th-chevron-left:before {
+    content:"\ebb9";
     font-family:"honeybee";
 }
 
-.th-skip-track:before {
-    content:"\e3fc";
+.th-chevron-right:before {
+    content:"\ebc6";
     font-family:"honeybee";
 }
 
@@ -688,10 +689,10 @@ display:inline-block;
 
 <div id="sidebar1">
 <div id="links">
-<a href="/" title="home"><span class="th th-house-1-o"></span></a>
+<a href="/" title="home"><span class="th th-home-o"></span></a>
 <a href="/ask" title="ask"><span class="th th-envelope-o"></span></a>
-<a href="/submit" title="submit"><span class="th th-send-1-o"></span></a>
-<a href="/archive" title="archive"><span class="th th-calendar-o"></span></a>
+<a href="/submit" title="submit"><span class="th th-location-2-o"></span></a>
+<a href="/archive" title="archive"><span class="th th-calendar-1-o"></span></a>
 {block:ifSocialMedia}
 <div class="sm_border"></div>
 <a href="{text:Facebook URL}" title="facebook"><span class="th th-facebook-o"></span></a>
@@ -714,7 +715,7 @@ display:inline-block;
 <a href="{text:Link 4 URL}"><span class="th th-holly-o"></span>{text:Link 4}</a>
 <a href="{text:Link 5 URL}"><span class="th th-rose-o"></span>{text:Link 5}</a>
 <a href="{text:Link 6 URL}"><span class="th th-sunflower-o"></span>{text:Link 6}</a>
-{block:ifSearchBox}<div class="searchb"><span class="th th-loupe-1-o"></span><form class="search" action="javascript:return false">
+{block:ifSearchBox}<div class="searchb"><span class="th th-loupe-o"></span><form class="search" action="javascript:return false">
 <input type="text" class="query" placeholder="search">
 </form></div>{/block:ifSearchBox}
 </div>
@@ -799,7 +800,7 @@ display:inline-block;
 <div class="info">
 <a href="{Permalink}" class="perma" title="{NoteCountWithLabel}">{TimeAgo}</a>
 <div class="like1"><a class="like-b">{LikeButton}<span class="th th-heart-1-o"></span></a></div>
-<div class="reblog1"><a href="{ReblogURL}" target="_blank" ><span class="th th-counter-arrow"></span></a></div>
+<div class="reblog1"><a href="{ReblogURL}" target="_blank" ><span class="th th-reblog"></span></a></div>
 {block:HasTags}
 <div class="tags">
 {block:Tags}<a href="{TagURL}" class="tag">{Tag}</a>{/block:Tags}
@@ -821,18 +822,18 @@ display:inline-block;
 {/block:Posts}
 
 {block:Pagination}<div class="pag">{block:PreviousPage}
-                <a href="{PreviousPage}" class="prev"><span class="th th-backward-arrow"></span></a>
+                <a href="{PreviousPage}" class="prev"><span class="th th-chevron-left"></span></a>
             {/block:PreviousPage}{block:JumpPagination length="5"}{block:CurrentPage}
                     <span class="current_page">{PageNumber}</span>
                 {/block:CurrentPage}{block:JumpPage}
                     <a class="jump_page" href="{URL}">{PageNumber}</a>
                 {/block:JumpPage}{/block:JumpPagination}{block:NextPage}
-                <a href="{NextPage}" class="next"><span class="th th-skip-track"></span></a>
+                <a href="{NextPage}" class="next"><span class="th th-chevron-right"></span></a>
             {/block:NextPage}</div>{/block:Pagination}
             
 </div>
 
-<a id="credit" title="theme credit" href="http://studyace.tumblr.com">☂</a>
+<a id="credit" title="theme credit" href="https://studyace.tumblr.com">☂</a>
 
 <script src="//code.jquery.com/jquery-1.7.1.min.js"></script>
 <link href="https://static.tumblr.com/0podkko/oDSpg7y88/photosets.css" rel="stylesheet">
@@ -862,7 +863,7 @@ attribute:"title"
 $(document).ready(function(){
    $('.search').submit(function(event){
        var value = $('input:first').val();
-       location.replace('http://{Name}.tumblr.com/tagged/' + value);
+       location.replace('https://{Name}.tumblr.com/tagged/' + value);
    });
 });
 function gatherData(images, arr) {
