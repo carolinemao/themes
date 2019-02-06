@@ -27,7 +27,7 @@ contact me at studyace.tumblr.com
 <meta name="color:Post Borders Hover" content="#000"/>
 
 <!---sidebar options--->
-<meta name="image:Sidebar" content="http://static.tumblr.com/sxwpcvo/HGCo9o5nv/pink-haired_girl_with_a_flowercrown__santansey__tumblr_.png"/>
+<meta name="image:Sidebar" content="https://static.tumblr.com/sxwpcvo/HGCo9o5nv/pink-haired_girl_with_a_flowercrown__santansey__tumblr_.png"/>
 
 <!---text options--->
 <meta name="text:Font Size" content="12px"/>
@@ -54,10 +54,10 @@ contact me at studyace.tumblr.com
 <meta name="if:Sidebar Image" content="1"/>
 <meta name="if:Sidebar Border" content="1"/>
 
-<link href="http://fonts.googleapis.com/css?family=Open+Sans|Karla|Inconsolata" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Karla|Inconsolata" rel="stylesheet" type="text/css">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
 <script>
 (function($){
 $(document).ready(function(){
@@ -71,8 +71,8 @@ attribute:"title"
 })(jQuery);
 </script>
 
-<script type="text/javascript" src="http://static.tumblr.com/d0qlne1/DiAl6ekb7/jquery-1.4.2.min.js"></script>
-<script src="http://static.tumblr.com/twte3d7/H8Glm663z/masonry.js"></script>
+<script type="text/javascript" src="https://static.tumblr.com/d0qlne1/DiAl6ekb7/jquery-1.4.2.min.js"></script>
+<script src="https://static.tumblr.com/twte3d7/H8Glm663z/masonry.js"></script>
 <script type="text/javascript">
 $(window).load(function () {
 $('.masonry').masonry({
@@ -198,7 +198,7 @@ a:hover { text-shadow:0.5px 0.5px 0.1px {color:Link}; }
 .audstuff { text-align:center; }
 .album {
     z-index:10000;
-    background-image:url('http://static.tumblr.com/xdzt0ir/87ho6heum/cursive_default_album_art_sign.png');
+    background-image:url('https://static.tumblr.com/xdzt0ir/87ho6heum/cursive_default_album_art_sign.png');
     background-size:60px 60px;
     width:60px;
     height:60px;
@@ -346,6 +346,6 @@ a:hover { text-shadow:0.5px 0.5px 0.1px {color:Link}; }
 </div>
 </div>
 
-<a id="credit" href="http://studyace.tumblr.com" title="theme">☂</a>
+<a id="credit" href="https://studyace.tumblr.com" title="theme">☂</a>
 </body>
 </html>
