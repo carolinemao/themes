@@ -71,7 +71,7 @@ contact me at studyace.tumblr.com
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
 <script>
 (function($){
 $(document).ready(function(){
@@ -317,7 +317,7 @@ blockquote { padding-left:15px; border-left:2px solid {color:Blockquote}; }
 .album {
     border:10px solid {color:Borders};
     z-index:10000;
-    background-image:url('http://static.tumblr.com/xdzt0ir/87ho6heum/cursive_default_album_art_sign.png');
+    background-image:url('https://static.tumblr.com/xdzt0ir/87ho6heum/cursive_default_album_art_sign.png');
     width:100px;
     margin:15px 0px 0px 15px;
     height:100px;
@@ -589,7 +589,7 @@ filed under: {block:Tags}<a href="{TagURL}" class="tag">{Tag}</a> {/block:Tags}
 </div>
 </div>
 
-<a id="credit" href="http://studyace.tumblr.com" title="theme">☂</a>
+<a id="credit" href="https://studyace.tumblr.com" title="theme">☂</a>
 
 </body>
 </html>
