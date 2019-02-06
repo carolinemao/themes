@@ -18,7 +18,7 @@ contact @ studyace.tumblr.com
 
 <link href="https://fonts.googleapis.com/css?family=Lato:300|Muli:700" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/n7gvaew/8gop026qc/normalize.css">
+<link rel="stylesheet" type="text/css" href="https://static.tumblr.com/n7gvaew/8gop026qc/normalize.css">
 <link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet">
   
 <meta name="color:Gradient 1" content="pink"/>
@@ -519,13 +519,13 @@ h1, .tumblr_blog {
     font-size:0.8em;
 }
 
-.th-backward-arrow:before{
-content:'\e3da';
+.th-chevron-left:before{
+content:'\ebb9';
 font-family:'honeybee';
 }
 
-.th-skip-track:before{
-content:'\e3fc';
+.th-chevron-right:before{
+content:'\ebc6';
 font-family:'honeybee';
 }
 
@@ -724,17 +724,17 @@ font-family:'honeybee';
 {/block:Posts}
 
  {block:Pagination}<div class="pag">{block:PreviousPage}
-                <a href="{PreviousPage}"><span class="th th-backward-arrow"></span></a>
+                <a href="{PreviousPage}"><span class="th th-chevron-left"></span></a>
             {/block:PreviousPage}{block:JumpPagination length="5"}{block:CurrentPage}
                     <span class="current_page">{PageNumber}</span>
                 {/block:CurrentPage}{block:JumpPage}
                     <a class="jump_page" href="{URL}">{PageNumber}</a>
                 {/block:JumpPage}{/block:JumpPagination}{block:NextPage}
-                <a href="{NextPage}"><span class="th th-skip-track"></span></a>
+                <a href="{NextPage}"><span class="th th-chevron-right"></span></a>
             {/block:NextPage}</div>{/block:Pagination}
 </div>
 
-<a id="credit" href="http://studyace.tumblr.com" title="theme">☂</a>
+<a id="credit" href="https://studyace.tumblr.com" title="theme">☂</a>
 
 <script src="//code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src ="//static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
