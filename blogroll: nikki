@@ -1,4 +1,3 @@
-
 <html><head><title>blogroll | {Title}</title>
 <link rel="shortcut icon" href="{Favicon}">
 <!--page: nikki by @studyace
@@ -43,7 +42,7 @@ body {
 }
 
 .th-eye-o:before{
-content:'\e0ef';
+content:'\ea15';
 font-family:'honeybee';
 background-color:#fff;
 padding:12px 10px 10px 10px;
@@ -159,13 +158,13 @@ left:10px;
     background-color:#fff;
 }
 
-.th-up-direction:before {
-    content:"\e48e";
+.th-up-arrow:before {
+    content:"\ec1f";
     font-family:"honeybee";
 }
 
-.th-down-direction:before {
-    content:"\e422";
+.th-down-arrow:before {
+    content:"\ebd9";
     font-family:"honeybee";
 }
 
@@ -175,14 +174,14 @@ left:10px;
     
     <div id="top"></div>
     
-    <a href="#top" class="top"><span class="th th-up-direction"></span></a>
-    <a href="#bottom" class="bottom"><span class="th th-down-direction"></span></a>
+    <a href="#top" class="top"><span class="th th-up-arrow"></span></a>
+    <a href="#bottom" class="bottom"><span class="th th-down-arrow"></span></a>
     
     <span class='th th-eye-o'></span>
     <div class="links">
         <a href="/">home</a>
         <a href="/ask">contact</a>
-        <a href="http://studyace.tumblr.com">theme</a><!---please don't delete this, it's the theme credit; if you want to add another link just add another <a href="url here">link name</a>--->
+        <a href="https://studyace.tumblr.com">theme</a><!---please don't delete this, it's the theme credit; if you want to add another link just add another <a href="url here">link name</a>--->
     </div>
     
     <div id="blogroll">
@@ -193,7 +192,7 @@ left:10px;
     <img src="{FollowedPortraitURL-96}" class="portrait"/>
     <div class="hover">
     <a href="{FollowedURL}" class="name" title="go to {FollowedName}">{FollowedName}</a>
-    <a href="http://tumblr.com/follow/{FollowedName}" title="follow {FollowedName}" class="follow">{FollowedTitle}</a>
+    <a href="https://tumblr.com/follow/{FollowedName}" title="follow {FollowedName}" class="follow">{FollowedTitle}</a>
     </div>
     </div>
     {/block:Followed}
